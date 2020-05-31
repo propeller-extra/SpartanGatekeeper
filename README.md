@@ -1,0 +1,2 @@
+# SpartanGatekeeper
+Chrome拡張機能。カスタムサイトにおける一日にアクセス出来る回数を制限する。
