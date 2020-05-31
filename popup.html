@@ -9,11 +9,23 @@
 </head>
 <body>
     <main>
-        <h3 class="title">このサイトへの<br>アクセス数制限を行います。</h3>
-        <input id="newURL" type="url" name="newURL">
-        <div class="buttons-container">
-            <button id="cancel">キャンセル</button>
-            <button id="nextLevel">続行</button>
+        <div class="first-wrapper">
+            <h3 class="title">このサイトへの<br>アクセス数制限を行います。</h3>
+            URL: 
+            <input id="newURL" type="url" name="newURL">
+            <div class="buttons-container">
+                <button id="btn-nextLevel">続行</button>
+            </div>
+        </div>
+        <div class="second-wrapper">
+            <h3 class="title">1日の回数上限を<br>設定してください。</h3>
+            <form action="#" method="post">
+                <input id="textbox-perDayMaxiumNum" type="number" name="perDayMaxiumNum" min="0" max="10" value="3"
+                    required> 回
+                <div class="buttons-container">
+                    <input id="btn-decide" type="submit" value="これで決定！">
+                </div>
+            </form>
         </div>
     </main>
     <script src="./js/popup.js"></script>

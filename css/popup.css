@@ -8,6 +8,12 @@ main {
     text-align: center;
 }
 
+
+
+.first-wrapper {
+    display: block;
+}
+
 .title {
     color: black;
 }
@@ -24,14 +30,14 @@ main {
     justify-content: center;
 }
 
-#cancel {
-    margin: 0 10px;
-    background-color: aquamarine;
-    flex-basis: 50%;
-}
-
-#nextLevel {
+#btn-nextLevel {
     margin: 0 10px;
     background-color: coral;
     flex-basis: 50%;
+}
+
+
+
+.second-wrapper {
+    display: none;
 }
